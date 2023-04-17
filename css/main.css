@@ -1,0 +1,34 @@
+.overlay {
+  position: absolute;
+  bottom: 1em;
+  padding: 3em;
+  font-family: "Bebas Neue";
+  pointer-events: none;
+  color: white;
+}
+
+.text h1 {
+  position: absolute;
+  bottom: 125px;
+  left: 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 35px;
+  color: white;
+  text-shadow: 1px 1px #000;
+}
+
+.text p {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  color: white;
+  text-shadow: 1px 1px #000;
+}
+
+.inner {
+  position: relative;
+  z-index: 10;
+  pointer-events: none;
+}/*# sourceMappingURL=main.css.map */
