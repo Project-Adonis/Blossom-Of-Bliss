@@ -30,14 +30,14 @@
 /* adjust font sizes for smaller screens */
 @media only screen and (max-width: 768px) {
   .text h1 {
-    font-size: 50px;
+    font-size: 20px;
     text-align: center;
     left: 0;
     right: 0;
   }
 
   .text p {
-    font-size: 25px;
+    font-size: 15px;
     text-align: center;
     left: 0;
     right: 0;
