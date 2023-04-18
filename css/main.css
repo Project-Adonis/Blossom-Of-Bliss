@@ -30,7 +30,7 @@
 /* adjust font sizes for smaller screens */
 @media only screen and (max-width: 768px) {
   .text h1 {
-    position: absolute;
+    position: top;
     top: 15px;
     font-size: 30px;
     text-align: center;
