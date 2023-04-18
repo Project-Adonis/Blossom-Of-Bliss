@@ -28,7 +28,7 @@
 }
 
 /* adjust font sizes for smaller screens */
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .text h1 {
     font-size: 45px;
     text-align: center;
