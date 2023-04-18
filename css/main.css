@@ -31,7 +31,7 @@
 @media only screen and (max-width: 768px) {
   .text h1 {
     position: absolute;
-    top: 125px;
+    top: 15px;
     font-size: 30px;
     text-align: center;
     left: 0;
