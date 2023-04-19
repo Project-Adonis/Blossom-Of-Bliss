@@ -1,4 +1,3 @@
-I’ll try to create that. Here is a possible text for a README:
 
 Project Adonis: Immersive Worlds
 Project Adonis is a website that uses panoramic images to create immersive worlds where you can freely look around. 
