@@ -1,6 +1,7 @@
 import * as THREE from './js/three.module.js';
 import { OrbitControls } from './js/OrbitControls.js';
 
+
 // Select the container for the scene
 const container = document.getElementById('container');
 
@@ -14,7 +15,7 @@ container.appendChild(renderer.domElement);
 
 // Load the panoramic image and create a texture
 const loader = new THREE.TextureLoader();
-const texture = loader.load('pana.jpg');
+const texture = loader.load('nature.jpg');
 
 // Create a spherical geometry and map the texture to it
 const geometry = new THREE.SphereGeometry(500, 60, 40);
@@ -35,7 +36,7 @@ camera.position.set(0, 0, 0.1);
 const controls = new OrbitControls(camera, renderer.domElement);
 controls.enableZoom = false;
 controls.enablePan = false;
-
+1
 controls.rotateSpeed = -0.3;
 
 function onWindowResize() {
@@ -62,9 +63,4 @@ function animate(time) {
 }
 
 animate(0);
-
-
-
-
-
 
