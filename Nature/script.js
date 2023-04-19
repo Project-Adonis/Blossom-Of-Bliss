@@ -15,7 +15,7 @@ container.appendChild(renderer.domElement);
 
 // Load the panoramic image and create a texture
 const loader = new THREE.TextureLoader();
-const texture = loader.load('nature/nature.jpg');
+const texture = loader.load('./nature.jpg');
 
 // Create a spherical geometry and map the texture to it
 const geometry = new THREE.SphereGeometry(500, 60, 40);
