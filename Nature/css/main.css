@@ -71,7 +71,7 @@
 }/* sourceMappingURL=main.css.map */
 
 
-/* Menu */
+/* ------------------------------------ MENU ------------------------------------ */
 @import url(https://fonts.googleapis.com/css?family=Raleway);
 h2 {
   vertical-align: center;
@@ -87,7 +87,7 @@ html, body {
   text-shadow: 1px 1px #000;
 }
 .top-nav {
-  width: 100.8%;
+  width: 101%;
   position: absolute;
   top: 0;
   display: flex;
@@ -100,16 +100,6 @@ html, body {
   color: #FFF;
   height: 50px;
   padding: 1em;
-}
-
-.link:hover {
-  font-weight: 500;
-  color: black;
-}
-
-.link:visited {
-  font-weight: 500;
-  color: rgb(255, 255, 255);
 }
 
 .menu {
@@ -163,9 +153,12 @@ html, body {
   margin-top: 0px;
   transform: rotate(-135deg);
 }
-@media (max-width: 700px) {
+@media (max-width: 768px) {
   .menu-button-container {
     display: flex;
+  }
+  .top-nav {
+    width: 101.5%;
   }
   .menu {
     position: absolute;
