@@ -85,16 +85,40 @@ html, body {
   font-family: 'Open Sans', sans-serif;
   box-sizing: border-box;
   text-shadow: 1px 1px #000;
+  text-decoration: none;
+  color: white;
 }
+
+.menu link:link {
+  color: white;
+  text-decoration: none;
+}
+
+.menu link:visited {
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+}
+
+.menu link:hover {
+  color: gray;
+  text-decoration: none;
+}
+
+.menu link:hover {
+  color: gray;
+  text-decoration: none;
+}
+
+
 .top-nav {
-  width: 101%;
-  position: absolute;
+  width: 100%;
+  position: fixed;
   top: 0;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  background-color: #00BAF0;
+  background-color: #ffffff;
   background: linear-gradient(to left, #a7a7a66e, #a7a7a66e);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: #FFF;
@@ -111,7 +135,7 @@ html, body {
 }
 .menu > li {
   margin: 0 1rem;
-  overflow: visible;
+  overflow: hidden;
 }
 .menu-button-container {
   display: none;
@@ -158,7 +182,7 @@ html, body {
     display: flex;
   }
   .top-nav {
-    width: 101.5%;
+    width: 100%;
   }
   .menu {
     position: absolute;
