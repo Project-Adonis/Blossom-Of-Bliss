@@ -1,3 +1,15 @@
+body {
+  cursor: move;
+}
+
+section {
+  cursor: auto;
+}
+
+.text {
+  cursor: auto;
+}
+
 .overlay {
   position: absolute;
   bottom: 1em;
